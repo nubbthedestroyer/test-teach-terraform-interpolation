@@ -69,4 +69,6 @@ If you were successful, you'll see:
 
 ## Simple Math
 
-OK! Let's dive 
+OK! Let's dive in!
+
+Firstly, open the terminal
