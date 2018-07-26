@@ -16,10 +16,19 @@ begin, there are a few topics that you should know first if you don't already:
     * https://www.terraform.io/docs/configuration/variables.html
 3. Terraform Data Structures
     * https://www.terraform.io/docs/configuration/syntax.html
+4. Basic terminal operations.
+5. Basic Git experience.
+6. (Optional)  Basic software development experience.
+    
+We also assume the following:
+
+1. You have a computer that is terminal capable that you can run commands on.
+2. You've "git clone"'d this repo so you have the examples local to your terminal.
+3. You've installed Terraform on your local machine.
+    * https://www.terraform.io/downloads.html
 
 If you have any questions about the above topics, bring them up during the lesson.  
 Tangent questions are fun and you never know who was thinking about asking the same thing.
-
 
 ## WHAT (are we going to do)
 
@@ -45,4 +54,19 @@ In this exercise, we will play with a few of these examples to give you a feel f
 
 ## Setup
 
-This repo is fully equipped with functioning Terraform to allow you to play with interpolation.
+This repo is fully equipped with functioning Terraform to allow you to play with interpolation.  
+That being said, there are a few things we need to do to prepare:
+
+1. Ensure you've cloned this repo to your local computer and you are in the root directory for the repo 
+you've just cloned.
+2. Run the following command to initialize this terraform directory and pull the TF provider's you'll need.
+
+> terraform init
+
+If you were successful, you'll see:
+
+> Terraform has been successfully initialized!
+
+## Simple Math
+
+OK! Let's dive 
