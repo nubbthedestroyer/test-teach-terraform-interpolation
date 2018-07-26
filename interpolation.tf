@@ -16,7 +16,7 @@ locals {
   #################################
 
   # BUILD THE FINAL OUTPUT LOCAL
-//  outputfinal = "${var.testout}"
+  outputfinal = "${var.testout}"
 }
 
 
