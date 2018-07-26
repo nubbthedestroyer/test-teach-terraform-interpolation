@@ -71,4 +71,44 @@ If you were successful, you'll see:
 
 OK! Let's dive in!
 
-Firstly, open the terminal
+Firstly, open the "interpolation.tf" in your favorite text editor and have a look at the contents.  The 
+bottom part is designed to allow you to see the results of your interpolation in your terminal, which is 
+approximately the easiest way to experiment with interpolation.
+
+As is, this script is taking an input variable from variables.tf and outputting it directly to terminal.  
+We are going to get a little fancier and demonstrate how we can do more with variables and data types with 
+interpolation.
+
+First run this commmand:
+
+> terraform apply
+
+When asked for input, type "yes" without quotes.
+
+In your output you should see the following:
+
+> null_resource.local_output (local-exec): ===OUTPUT FROM EXPERIMENT === TESTING MY OUTPUT
+
+This is the line that will be containing your output.  Look for this line in future sections.
+
+So let's do some simple math.
+
+In the experimentation section of interpolation.tf, copy the following:
+
+> math = "${1 + 1}"
+
+Then find the following line:
+
+> outputfinal = "${var.testout}"
+
+Change 'var.testout' to 'local.math'.
+
+Then go back to terminal and run:
+
+> terraform apply
+
+If you see the following line in the output of terraform apply:
+
+> null_resource.local_output (local-exec): === OUTPUT FROM EXPERIMENT >>> 2
+
+Then you were successful!!!  Give yourself a pat on the back.

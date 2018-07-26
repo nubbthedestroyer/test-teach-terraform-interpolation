@@ -26,6 +26,6 @@ resource "null_resource" "local_output" {
     datetime = "${timestamp()}"
   }
   provisioner "local-exec" {
-    command = "echo ===OUTPUT FROM EXPERIMENT === ${local.outputfinal}"
+    command = "echo \"=== OUTPUT FROM EXPERIMENT >>> ${local.outputfinal}\""
   }
 }
