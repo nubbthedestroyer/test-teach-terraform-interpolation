@@ -1,5 +1,6 @@
 # Mike's Tangent - Terraform Interpolation
 #### *Prepared and Taught by Michael Lucas*
+[Accompanying Slides](https://docs.google.com/presentation/d/1Nfa843wN4A6-NQLYvqzfE4bwd_gREKOrIe-bniCemlk/edit?usp=sharing)
 
 ## Introduction
 
@@ -217,4 +218,3 @@ null_resource.local_output (local-exec): === OUTPUT FROM EXPERIMENT >>> echo HEL
 
 That concludes this episode of Mike's Tangent.  Thank you so much for listening in!
 
-[Accompanying Slides](https://docs.google.com/presentation/d/1Nfa843wN4A6-NQLYvqzfE4bwd_gREKOrIe-bniCemlk/edit?usp=sharing)
