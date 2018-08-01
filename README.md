@@ -214,7 +214,5 @@ Done right, you should see the script's output in your terminal window when you 
 null_resource.local_output (local-exec): === OUTPUT FROM EXPERIMENT >>> echo HELLO WORLD
 ```
 
-*** trigger dino timer ***
-
 That concludes this episode of Mike's Tangent.  Thank you so much for listening in!
 
