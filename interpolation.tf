@@ -16,7 +16,7 @@ locals {
   #################################
 
   # BUILD THE FINAL OUTPUT LOCAL
-//  outputfinal = "TESTING MY OUTPUT"
+  outputfinal = "TESTING MY OUTPUT"
 }
 
 ###################################
